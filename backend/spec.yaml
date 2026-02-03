@@ -1,0 +1,47 @@
+openapi: 3.0.3
+info:
+  title: MockForge Demo API
+  description: Sample API for MockForge mocking
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8080
+
+paths:
+  /users:
+    get:
+      summary: Get all users
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              example:
+                - id: 1
+                  name: Alice
+                - id: 2
+                  name: Bob
+
+  /users/{id}:
+    get:
+      summary: Get user by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: User found
+          content:
+            application/json:
+              example:
+                id: 1
+                name: Alice
+        "404":
+          description: User not found
+          content:
+            application/json:
+              example:
+                error: User not found
