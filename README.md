@@ -4,7 +4,9 @@
 
 **MockForge** is an **OpenAPI-driven API mocking and testing platform** built for modern frontend and backend teams.
 
-![MockForge](https://res.cloudinary.com/dhyii4oiw/image/upload/v1770099699/Gemini_Generated_Image_jtsixkjtsixkjtsi_fqt7ji.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dhyii4oiw/image/upload/v1770100502/Screenshot_2026-02-03_115815_xq4zda.png" alt="mockforge" width="300">
+</p>
 
 It allows developers to instantly mock APIs from OpenAPI specs, test endpoints using a **Postman-like UI**, simulate real-world scenarios, and switch environments — all without restarting servers.
 
