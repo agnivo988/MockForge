@@ -47,7 +47,7 @@ export default function RequestBuilder() {
         <input
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          className="flex-1 bg-black border border-gray-700 px-3 py-2 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 bg-black border border-gray-700 px-3 py-2 rounded rounded-[16px] text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="http://localhost:8080/users"
         />
 
