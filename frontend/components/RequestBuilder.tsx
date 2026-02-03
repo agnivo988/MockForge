@@ -7,7 +7,7 @@ import ResponseViewer from "./ResponseViewer";
 
 export default function RequestBuilder() {
   const [method, setMethod] = useState("GET");
-  const [url, setUrl] = useState("http://localhost:8080/");
+  const [url, setUrl] = useState("https://mockforge-1.onrender.com/");
   const [headers, setHeaders] = useState<Record<string, string>>({});
   const [body, setBody] = useState("");
   const [response, setResponse] = useState<any>(null);
